@@ -1,2 +1,8 @@
+---
+name: Example
+homepage: https://github.com/iorate/ublacklist-example-subscription
+---
 *://*.example.com/*
 /example\.(net|org)/
+title*="example"i
+*://*.example.edu/* @if($category="images")
